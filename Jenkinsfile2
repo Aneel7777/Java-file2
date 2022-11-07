@@ -21,10 +21,5 @@ pipeline {
          sh "package"
     }
 }
-stage('deploy') { 
-            steps {
-         sh "package"
-         }
-         }
          }
          }
